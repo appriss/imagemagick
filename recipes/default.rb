@@ -22,4 +22,6 @@ when 'rhel'
   package 'ImageMagick'
 when 'debian', 'mac_os_x'
   package 'imagemagick'
+when 'suse'
+  package 'ImageMagick'
 end
